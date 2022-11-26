@@ -35,42 +35,50 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 
+/*Your code*/
 
-@media (min-width: 375px) {
-  .column {
-    display: block;
-  }
+
+@media screen and (min-width: 768px) {
+	.container { 
+		display: flex;
+		width: 75%;
+	}
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1em;
 }
 
 
-.container {
-  display: flex;
-  flex-direction: row;
-  margin: 200px;
-  border-radius: 10px;
-  overflow: hidden;
-  justify-content: center;
-  align-content: center;
-  } 
-
-.column {
-  padding: 75px;
+ul {
+	list-style: none;
+	height: 75%;
+	border-radius: 10px;
+	overflow: hidden;
 }
+
+
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  padding: 4.6875em;
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
+  padding: 4.6875em;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-}
-
-body {
-  font-size: 1em;
+  padding: 4.6875em;
 }
 
 h2 {
@@ -84,7 +92,7 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 
-button {
+.button {
   border: none;
   border-radius: 50px;
   padding: 15px;
@@ -94,7 +102,10 @@ button {
   text-decoration: none;
   overflow: hidden;
   cursor: pointer;
+  background-color: hsl(0, 0%, 95%);
 }
+
+
 
 
 
