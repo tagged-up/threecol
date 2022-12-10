@@ -35,28 +35,26 @@ p, h1, h2, h3, h4, h5, h6 {
 
 
 
-/*Your code*/
+/*my code*/
 
 
 @media screen and (min-width: 768px) {
 	.container { 
 		display: flex;
-		width: 75%;
+    max-width: 70rem;
 	}
 }
 
 body {
-	height: 100vh;
+	min-height: 75%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1em;
 }
 
 
 ul {
 	list-style: none;
-	height: 75%;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -67,7 +65,6 @@ ul {
   background-color: hsl(31, 77%, 52%);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
-  overflow: hidden;
   padding: 4.6875em;
 }
 
@@ -109,21 +106,21 @@ p {
 .orange {
   color: hsl(31, 77%, 52%);
   font-family: 'Lexend Deca', sans-serif;
-  margin: 15px;
+  margin-top: 25px;
   padding: 15px;
 }
 
 .green {
   color: hsl(184, 100%, 22%);
   font-family: 'Lexend Deca', sans-serif;
-  margin: 15px;
+  margin-top: 25px;
   padding: 15px;
 }
 
 .dgreen {
   color: hsl(179, 100%, 13%);
   font-family: 'Lexend Deca', sans-serif;
-  margin: 15px;
+  margin-top: 25px;
   padding: 15px;
 }
 
